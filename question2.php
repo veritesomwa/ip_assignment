@@ -26,28 +26,28 @@
     $ratingSortedArray = sortArrayValueDesending($movies);
 
     ?>
-        <strong><h3>In their original orders</h3></strong>
+        <strong><h3>In their original order:</h3></strong>
     <?php
 
     foreach ($movies as $key => $value) {
-        echo '<h4>'.$value.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$key.'</h4>';
+        echo '<p>'.$value.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$key.'</p>';
     }
 
 
     ?>
-        <strong><h3>Sorted by title</h3></strong>
+        <strong><h3>Sorted by title:</h3></strong>
     <?php
 
     foreach ($nameSortedArray as $key => $value) {
-        echo '<h4>'.$value.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$key.'</h4>';
+        echo '<p>'.$value.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$key.'</p>';
     }
 
     ?>
-        <strong><h3>Sorted by rating</h3></strong>
+        <strong><h3>Sorted by rating:</h3></strong>
     <?php
 
     foreach ($ratingSortedArray as $key => $value) {
-        echo '<h4>'.$value.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$key.'</h4>';
+        echo '<p>'.$value.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$key.'</p>';
     }
 
 ?>
